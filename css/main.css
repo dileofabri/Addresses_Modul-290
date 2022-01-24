@@ -1,0 +1,22 @@
+html {
+    background-color: white;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.header {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+}
+
+
+
