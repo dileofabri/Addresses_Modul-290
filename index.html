@@ -2,29 +2,26 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Adressencheck</title>
-
+    <title>Namenssuche</title>
     <!-- Stylesheet -->
     <link type="text/css" rel="stylesheet" href="css/main.css"/>
 </head>
 <body>
-    <div class="header">
-        <h1>Adressencheck</h1>
-        <div class="input_section">
-            <form>
-                <label>Gib deinen Namen ein:</label>
-                <label>
-                    <input type="text">
-                </label>
-                <input type="submit" formmethod="get">
-                <div class="result_field">
-
+    <div class="container-out">
+        <div class="container-in">
+            <div class="search-container">
+                <div class="search-engine">
+                    <h1 class="search-title">Namenssuche</h1>
+                    <input autocomplete="off" id="search-input" placeholder="Um zu suchen, ENTER drücken"/>
                 </div>
-            </form>
+                <div id="search-results"></div>
+                <div id="search-data"></div>
+            </div>
         </div>
     </div>
 
     <script href="js/db_connect.js"></script>
     <script href="js/db_select.js"></script>
+    <script href="js/database.js"></script>
 </body>
 </html>
